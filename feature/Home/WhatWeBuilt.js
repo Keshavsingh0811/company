@@ -30,7 +30,7 @@ const WhatWeBuilt = () => {
         </div>
         <div className="explore-more-container">
           <a href="/portfolio">
-            <button className="navbar-button">Explore More</button>
+            <button className="btn btn-warning">Explore More</button>
           </a>
         </div>
       </section>

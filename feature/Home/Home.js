@@ -27,7 +27,7 @@ export default function Home() {
           solutions designed to empower businesses, enhance efficiency, and
           achieve sustainable growth.
         </p>
-        <button className="navbar-button" onClick={redirectToAnotherPage}>
+        <button className="btn btn-warning" onClick={redirectToAnotherPage}>
           Explore Our Expertise
         </button>
       </section>
@@ -45,7 +45,7 @@ export default function Home() {
               </p>
             </div>
             <div className="col-lg-4 d-flex align-items-center justify-content-end">
-              <button className="navbar-button" onClick={redirectToAbout}>
+              <button className="btn btn-warning" onClick={redirectToAbout}>
                 Discover More
               </button>
             </div>

@@ -19,7 +19,7 @@ const FooterOne = (props) => {
             aligned with your needs.
           </p>
           <div className="call-to-action-button-wrapper">
-            <button className="navbar-button" onClick={redirectToAnotherPage}>
+            <button className="btn btn-warning" onClick={redirectToAnotherPage}>
               Reach us now
             </button>
           </div>

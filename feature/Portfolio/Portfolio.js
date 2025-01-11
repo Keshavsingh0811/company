@@ -29,7 +29,7 @@ const Portfolio = (props) => {
                     production of nutraceuticals, including tablets, capsules,
                     powders, and syrups.
                   </p>
-                  <a href="https://example.com" className="navbar-button">
+                  <a href="https://example.com" className="btn btn-warning">
                     Visit site
                   </a>
                 </div>
@@ -52,7 +52,7 @@ const Portfolio = (props) => {
                     production of industrial pumps, including centrifugal,
                     self-priming, mud, and mono-block pumps.
                   </p>
-                  <a href="https://example.com" className="navbar-button">
+                  <a href="https://example.com" className="btn btn-warning">
                     Visit site
                   </a>
                 </div>
@@ -75,7 +75,7 @@ const Portfolio = (props) => {
                     specializing in AI/ML solutions, offering award-winning IT
                     services for startups, SMEs, and enterprises.
                   </p>
-                  <a href="https://example.com" className="navbar-button">
+                  <a href="https://example.com" className="btn btn-warning">
                     Visit site
                   </a>
                 </div>

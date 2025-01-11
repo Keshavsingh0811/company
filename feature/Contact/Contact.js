@@ -151,7 +151,7 @@ const Contact = () => {
                       required
                     ></textarea>
                   </div>
-                  <button type="submit" className="navbar-button w-100">
+                  <button type="submit" className="btn btn-warning w-100">
                     Send Message
                   </button>
                 </form>

@@ -12,7 +12,7 @@ const Footer = () => {
             <div className="col-lg-4">
               <div className="footer-logo mt-4">
                 <a
-                  href="https://your-company-website.com"
+                  href="https://company-blue-seven.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -86,7 +86,7 @@ const Footer = () => {
                     <i className="fas fa-envelope social-icon"></i>
                   </a>
                   <a
-                    href="https://linkedin.com"
+                    href="https://www.linkedin.com/in/keshav-pratap-singh-8b217121a/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="social-link"

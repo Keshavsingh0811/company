@@ -25,13 +25,13 @@ const Contact = () => {
               <div className="contact-details">
                 {/* Phone Link */}
                 <a
-                  href="tel:+918128548795"
+                  href="tel:+7005455056"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="social-link-con me-4 d-flex align-items-center"
                 >
                   <i className="fas fa-phone-alt social-icon-con me-2"></i>
-                  (+91) 8128548795
+                  (+91) 7005455056
                 </a>
 
                 {/* Email Link */}

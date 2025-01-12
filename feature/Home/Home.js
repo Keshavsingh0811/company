@@ -21,11 +21,11 @@ export default function Home() {
       <Header />
       {/* Hero Section */}
       <section className="homepage-hero">
-        <h1>Empowering Growth with Custom Solutions</h1>
+        <h1>Driving Growth with Tailored Solutions</h1>
         <p>
-          At Keshav, we specialize in building innovative web and software
-          solutions designed to empower businesses, enhance efficiency, and
-          achieve sustainable growth.
+          At Keshav, we focus on crafting cutting-edge web and software
+          solutions that empower businesses, boost efficiency, and foster
+          sustainable success.
         </p>
         <button className="btn btn-warning" onClick={redirectToAnotherPage}>
           Explore Our Expertise
@@ -39,9 +39,9 @@ export default function Home() {
             <div className="col-lg-8 choose-item">
               <h2 className="section-title">Discover Keshav</h2>
               <p>
-                At Keshav, we are passionate about leveraging technology to
-                create innovative solutions that empower businesses to thrive in
-                a digital-first world.
+                At Keshav, we are dedicated to harnessing technology to develop
+                innovative solutions that enable businesses to excel in today’s
+                digital-driven world.
               </p>
             </div>
             <div className="col-lg-4 d-flex align-items-center justify-content-end">
@@ -60,8 +60,8 @@ export default function Home() {
                       <div className="card-body">
                         <h6 className="card-title">Who we are</h6>
                         <p className="card-text">
-                          At Keshav, we are a team of passionate innovators
-                          dedicated to creating exceptional software solutions.
+                          At Keshav, we are a team of committed innovators
+                          focused on delivering outstanding software solutions.
                         </p>
                       </div>
                     </div>
@@ -71,8 +71,8 @@ export default function Home() {
                       <div className="card-body">
                         <h6 className="card-title">What we do</h6>
                         <p className="card-text">
-                          We provide exceptional work and services, prioritizing
-                          quality and excellence.
+                          We deliver outstanding work and services, with a
+                          strong emphasis on quality and excellence.
                         </p>
                       </div>
                     </div>
@@ -82,9 +82,9 @@ export default function Home() {
                       <div className="card-body">
                         <h6 className="card-title">How can we help?</h6>
                         <p className="card-text">
-                          We turn ideas into reality with technical solutions
-                          that scale your business, simplify operations, and
-                          maximize profits.
+                          We bring ideas to life with technical solutions that
+                          grow your business, streamline operations, and
+                          optimize profitability.
                         </p>
                       </div>
                     </div>
@@ -94,9 +94,10 @@ export default function Home() {
                       <div className="card-body">
                         <h6 className="card-title">Create success stories</h6>
                         <p className="card-text">
-                          If you’re in business, we’ll help to take it to the
-                          next level. If you’re from a tech background, let’s
-                          connect and innovate together.
+                          If you’re a business owner, we’ll help you elevate it
+                          to new heights. If you’re from a tech background,
+                          let’s collaborate and create innovative solutions
+                          together.
                         </p>
                       </div>
                     </div>
@@ -106,7 +107,7 @@ export default function Home() {
             </div>
             <div className="col-lg-5">
               <Image
-                src="/discover.jpg"
+                src="/discover1.jpg"
                 alt="Why Choose Us"
                 width={700}
                 height={400}

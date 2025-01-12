@@ -19,10 +19,10 @@ const About = () => {
           <div className="row mx-3">
             <div className="col-lg-5">
               <img
-                src="/three.jpg"
+                src="/OIP1.jpg"
                 alt="Why Choose Us"
-                width="500"
-                height="300"
+                width="550"
+                height="500"
                 className="img-fluid custom-image"
               />
             </div>
@@ -30,32 +30,32 @@ const About = () => {
               <h2 className="section-title">Why Choose Us</h2>
               <p>
                 At Keshav, we specialize in web development, web design, and
-                UI/UX design. We build responsive, user-friendly websites and
-                web applications that not only engage users but also provide
-                seamless experiences across all devices. Our expert UI/UX design
-                team focuses on creating intuitive interfaces that prioritize
-                ease of use, ensuring your audience interacts effortlessly with
-                your digital products. We also specialize in software
-                development, including both web-based and Windows-based
-                solutions. From custom software that addresses unique business
-                challenges to scalable web applications, we deliver high-quality
-                solutions tailored to meet your specific needs. Our focus is on
-                creating software that drives efficiency, enhances productivity,
-                and supports the growth of your business.
+                UI/UX design. We create responsive, user-centric websites and
+                web applications that captivate users and deliver smooth
+                experiences across all devices. Our skilled UI/UX design team
+                crafts intuitive interfaces that emphasize simplicity and
+                usability, ensuring seamless interactions with your digital
+                products. Additionally, we offer software development services,
+                including both web-based and Windows-based solutions. Whether
+                it's custom software to address specific business needs or
+                scalable web applications, we provide high-quality solutions
+                tailored to your requirements. Our goal is to develop software
+                that enhances efficiency, boosts productivity, and supports your
+                business growth.
               </p>
               <div className="cards">
                 <div className="card bg-info text-dark">
                   <h3 className="card-title">Our Vision</h3>
                   <p className="card-text">
-                    Empowering businesses with innovative technology for
-                    success.
+                    Driving business success through innovative technology
+                    solutions.
                   </p>
                 </div>
                 <div className="card bg-info text-dark">
                   <h3 className="card-title">Our Mission</h3>
                   <p className="card-text">
-                    Driving growth and unlocking opportunities through digital
-                    solutions.
+                    Fostering growth and creating opportunities with
+                    transformative digital solutions.
                   </p>
                 </div>
               </div>
@@ -70,23 +70,23 @@ const About = () => {
               <h2 className="section-title">What we do</h2>
               <p>
                 At Keshav, we specialize in web development, web design, and
-                UI/UX design. We build responsive, user-friendly websites and
-                web applications that not only engage users but also provide
-                seamless experiences across all devices. Our expert UI/UX design
-                team focuses on creating intuitive interfaces that prioritize
-                ease of use, ensuring your audience interacts effortlessly with
-                your digital products. We also specialize in software
-                development, including both web-based and Windows-based
-                solutions. From custom software that addresses unique business
-                challenges to scalable web applications, we deliver high-quality
-                solutions tailored to meet your specific needs. Our focus is on
-                creating software that drives efficiency, enhances productivity,
-                and supports the growth of your business.
+                UI/UX design. We craft responsive, user-friendly websites and
+                web applications that captivate users and deliver smooth,
+                consistent experiences across all devices. Our expert UI/UX
+                design team is dedicated to building intuitive interfaces that
+                prioritize simplicity and ease of use, ensuring seamless
+                interactions with your digital products. Additionally, we offer
+                software development services, including both web-based and
+                Windows-based solutions. From custom software designed to solve
+                unique business challenges to scalable web applications, we
+                provide high-quality solutions tailored to your specific needs.
+                Our aim is to create software that drives operational
+                efficiency, boosts productivity, and fuels business growth.
               </p>
             </div>
             <div className="col-lg-5">
               <img
-                src="/three.jpg"
+                src="/c.jpg"
                 alt="Why Choose Us"
                 width="500"
                 height="300"
@@ -102,16 +102,16 @@ const About = () => {
             <div className="col-lg-7 choose-item">
               <h2 className="section-title">Why Choose Us</h2>
               <p>
-                Keshav delivers tailored, scalable solutions that drive growth
-                and innovation. With a focus on user experience, design, and
-                continuous support, we ensure every project aligns with your
-                vision and exceeds expectations.
+                Keshav offers customized, scalable solutions that foster growth
+                and innovation. With a strong emphasis on user experience,
+                design excellence, and ongoing support, we ensure every project
+                aligns with your vision and goes beyond expectations.
               </p>
               <Image
-                src="/whyChooseUs-img.jpg"
+                src="/D.jpg"
                 alt="Why Choose Us"
-                width={700} // Increase width
-                height={400} // Increase height
+                width={750} 
+                height={450} 
                 className="img-fluid custom-image"
               />
             </div>
@@ -124,8 +124,8 @@ const About = () => {
                   <div className="card-body">
                     <h6 className="card-title">Tailored solutions</h6>
                     <p className="card-text">
-                      We create customized, scalable solutions to meet your
-                      specific business needs.
+                      We design bespoke, scalable solutions that are perfectly
+                      aligned with your unique business requirements.
                     </p>
                   </div>
                 </div>
@@ -136,8 +136,8 @@ const About = () => {
                   <div className="card-body">
                     <h6 className="card-title">Innovation driven</h6>
                     <p className="card-text">
-                      Our approach focuses on driving growth and fostering
-                      innovation through cutting-edge technology.
+                      We focus on accelerating growth and fostering innovation
+                      by leveraging cutting-edge technology.
                     </p>
                   </div>
                 </div>
@@ -148,8 +148,8 @@ const About = () => {
                   <div className="card-body">
                     <h6 className="card-title">User centric design</h6>
                     <p className="card-text">
-                      We prioritize seamless, intuitive user experiences that
-                      engage and retain your audience.
+                      We prioritize creating seamless and intuitive user
+                      experiences that captivate and retain your audience.
                     </p>
                   </div>
                 </div>
@@ -160,8 +160,8 @@ const About = () => {
                   <div className="card-body">
                     <h6 className="card-title">End to end support</h6>
                     <p className="card-text">
-                      From concept to deployment and beyond, we provide ongoing
-                      support to ensure your success.
+                      From initial concept to deployment and beyond, we offer
+                      continuous support to ensure your success at every stage.
                     </p>
                   </div>
                 </div>
@@ -172,8 +172,9 @@ const About = () => {
                   <div className="card-body">
                     <h6 className="card-title">Quality Assured</h6>
                     <p className="card-text">
-                      Our commitment to excellence ensures that every solution
-                      is high-quality, dependable, and future-ready.
+                      We are dedicated to excellence, ensuring that every
+                      solution is of the highest quality, reliable, and prepared
+                      for the future.
                     </p>
                   </div>
                 </div>

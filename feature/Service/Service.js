@@ -17,25 +17,25 @@ const Service = (props) => {
           <div className="row mx-3">
             <div className="col-lg-5">
               <img
-                src="/webDevelopment.svg"
+                src="/web.jpg"
                 alt="Why Choose Us"
-                width="400"
-                height="200"
+                width="550"
+                height="300"
                 className="img-fluid custom-image"
               />
             </div>
             <div className="col-lg-7">
               <h2 className="section-title">Web development</h2>
               <p>
-                At Keshav, we specialize in both static and dynamic web
-                development services. Whether you're looking for a simple,
-                informative website or a complex, interactive platform, our team
-                ensures that the solution is tailored to your business
-                requirements. From responsive layouts to advanced
-                functionalities, we use modern technologies to create seamless
-                and engaging web experiences. Partner with Keshav for websites
-                that are not only visually appealing but also deliver optimal
-                performance and user engagement.
+                At Keshav, we offer expertise in both static and dynamic web
+                development. Whether you're seeking a straightforward,
+                informational website or a sophisticated, interactive platform,
+                our team ensures the solution is tailored to your specific
+                business goals. Utilizing modern technologies, we create
+                responsive designs and integrate advanced features to provide
+                smooth, engaging web experiences. Choose Keshav for websites
+                that are not only visually impressive but also optimized for
+                peak performance and user interaction.
               </p>
               <div>
                 <h3 className="card-title mb-3">
@@ -78,14 +78,14 @@ const Service = (props) => {
             <div className="col-lg-7">
               <h2 className="section-title">UI/UX design</h2>
               <p>
-                At Keshav, we specialize in creating user-centric UI/UX designs
-                that are both visually engaging and intuitive to navigate. We
-                conduct detailed user research and focus on enhancing usability
-                through wireframes, prototypes, and final designs. Whether for
-                websites or apps, our goal is to deliver digital experiences
-                that improve user satisfaction and drive business success. Let
-                Keshav transform your digital presence with innovative design
-                solutions.
+                At Keshav, we focus on crafting user-centered UI/UX designs that
+                are visually appealing and easy to navigate. We perform in-depth
+                user research and prioritize enhancing usability through
+                wireframes, prototypes, and final designs. Whether for websites
+                or apps, our aim is to deliver digital experiences that boost
+                user satisfaction and contribute to business success. Let Keshav
+                elevate your digital presence with creative and innovative
+                design solutions.
               </p>
               <div>
                 <h3 className="card-title mb-3">
@@ -102,9 +102,9 @@ const Service = (props) => {
             </div>
             <div className="col-lg-5">
               <img
-                src="/uiuxDesign.svg"
+                src="/UI.jpg"
                 alt="Why Choose Us"
-                width="400"
+                width="530"
                 height="200"
                 className="img-fluid custom-image"
               />
@@ -116,7 +116,7 @@ const Service = (props) => {
           <div className="row mx-3">
             <div className="col-lg-5">
               <img
-                src="/softwareDevelopment.svg"
+                src="/S.jpg"
                 alt="Why Choose Us"
                 width="400"
                 height="200"
@@ -126,15 +126,15 @@ const Service = (props) => {
             <div className="col-lg-7">
               <h2 className="section-title">Software development</h2>
               <p>
-                Keshav offers comprehensive software development services for
-                both web-based and Windows-based applications. Our team
-                specializes in creating scalable, secure, and user-friendly
-                software tailored to your business needs. Whether you need a
-                robust web platform or a high-performance Windows application,
-                we leverage cutting-edge technologies to ensure seamless
-                functionality, enhanced performance, and a superior user
-                experience. Partner with Keshav to bring your software solutions
-                to life with precision and efficiency
+                Keshav provides end-to-end software development services for
+                both web-based and Windows applications. Our team excels in
+                building scalable, secure, and user-friendly software designed
+                to meet your specific business needs. Whether you require a
+                powerful web platform or a high-performance Windows application,
+                we use the latest technologies to ensure smooth functionality,
+                superior performance, and an exceptional user experience.
+                Partner with Keshav to bring your software solutions to life
+                with accuracy and efficiency.
               </p>
               <div>
                 <h3 className="card-title mb-3">

@@ -89,7 +89,7 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  <div className="col">
+                  <div className="col mb-3">
                     <div className="card feature-item">
                       <div className="card-body">
                         <h6 className="card-title">Create success stories</h6>

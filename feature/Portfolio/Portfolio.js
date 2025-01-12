@@ -11,18 +11,18 @@ const Portfolio = (props) => {
           <h1 className="hero-title">Our Portfolio</h1>
         </section>
 
-        <div className="container mx-5 mt-5">
+        <div className="container">
           <div className="row">
             {/* First Card */}
-            <div className="col-lg-4 col-md-6 mb-4">
+            <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
               <div className="card">
                 <img
                   src="/one.jpg"
                   alt="Sanitas Healthcare"
-                  className="img-fluid custom-image"
+                  className="img-fluid"
                   style={{ width: "100%", height: "auto" }}
                 />
-                <div className="card-body">
+                <div className="card-body text-center">
                   <h5 className="card-title">Sanitas Healthcare</h5>
                   <p className="card-text">
                     Sanitas Healthcare is an Indian company specializing in the
@@ -37,15 +37,15 @@ const Portfolio = (props) => {
             </div>
 
             {/* Second Card */}
-            <div className="col-lg-4 col-md-6 mb-4">
+            <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
               <div className="card">
                 <img
                   src="/two.jpg"
                   alt="Pionear"
-                  className="img-fluid custom-image"
+                  className="img-fluid"
                   style={{ width: "100%", height: "auto" }}
                 />
-                <div className="card-body">
+                <div className="card-body text-center">
                   <h5 className="card-title">Pionear</h5>
                   <p className="card-text">
                     Pionear Pumps is an Indian company specializing in the
@@ -60,15 +60,15 @@ const Portfolio = (props) => {
             </div>
 
             {/* Third Card */}
-            <div className="col-lg-4 col-md-6 mb-4">
+            <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
               <div className="card">
                 <img
                   src="/three.jpg"
                   alt="Expint"
-                  className="img-fluid custom-image"
+                  className="img-fluid"
                   style={{ width: "100%", height: "auto" }}
                 />
-                <div className="card-body">
+                <div className="card-body text-center">
                   <h5 className="card-title">Expint</h5>
                   <p className="card-text">
                     Expint Smart Products Private Limited is an Indian company

@@ -18,7 +18,7 @@ const Footer = () => {
                 >
                   <Image
                     className="company-logo"
-                    src="/Keshav-logo.svg"
+                    src="/infyniq-it-solutions.svg"
                     alt="Company Logo"
                     width={140}
                     height={140}
@@ -78,7 +78,7 @@ const Footer = () => {
                     <i className="fab fa-instagram social-icon"></i>
                   </a>
                   <a
-                    href="mailto:info@Keshav.com"
+                    href="mailto:info@Infyniq.com"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="social-link"
@@ -86,7 +86,7 @@ const Footer = () => {
                     <i className="fas fa-envelope social-icon"></i>
                   </a>
                   <a
-                    href="https://www.linkedin.com/in/keshav-pratap-singh-8b217121a/"
+                    href="https://www.linkedin.com/in/Infyniq-pratap-singh-8b217121a/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="social-link"
@@ -117,7 +117,7 @@ const Footer = () => {
           {/* Bottom Section */}
           <div className="footer-bottom">
             <p className="footer-bottom-text">
-              &copy; 2024 Keshav IT Solutions. All rights reserved.
+              &copy; 2024 Infyniq IT Solutions. All rights reserved.
             </p>
           </div>
         </div>

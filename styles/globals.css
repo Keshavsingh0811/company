@@ -133,10 +133,11 @@ height: 350px;
 }
 
 .company-logo {
-  width: 210px;
-  height: 82px;
-  transition: transform 0.3s ease;
+  width: 100%;
+  max-width: 280px; /* Adjust as needed */
+  height: auto;
 }
+
 
 .company-logo:hover {
   transform: scale(1.1);

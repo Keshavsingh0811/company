@@ -1,7 +1,72 @@
 import Header from "@/UI/Header/Header";
-import React from "react";
+import React, { useState } from "react";
+import Swal from "sweetalert2";
 
 const Contact = () => {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    message: "",
+  });
+
+  const [successMessage, setSuccessMessage] = useState("");
+  const [errorMessage, setErrorMessage] = useState("");
+
+  // Handle input change
+  const handleChange = (e) => {
+    const { id, value } = e.target;
+    setFormData((prevState) => ({
+      ...prevState,
+      [id]: value,
+    }));
+  };
+
+  // Handle form submission on button click
+  const handleSubmit = async () => {
+    debugger;
+    try {
+      const response = await fetch("https://localhost:44321/api/Contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        const data = await response.json();
+
+        // Show success alert
+        Swal.fire({
+          title: "Success!",
+          text: data.message,
+          icon: "success",
+          confirmButtonText: "OK",
+        });
+
+        setFormData({ name: "", email: "", phone: "", message: "" }); // Clear the form
+      } else {
+        const errorData = await response.json();
+
+        // Show error alert
+        Swal.fire({
+          title: "Error!",
+          text: errorData.message || "Something went wrong!",
+          icon: "error",
+          confirmButtonText: "Try Again",
+        });
+      }
+    } catch (error) {
+      Swal.fire({
+        title: "Error!",
+        text: "Unable to submit the form. Please try again.",
+        icon: "error",
+        confirmButtonText: "Try Again",
+      });
+    }
+  };
+
   return (
     <div className="page-container">
       <Header />
@@ -36,13 +101,13 @@ const Contact = () => {
 
                 {/* Email Link */}
                 <a
-                  href="mailto:Keshav.itsolutions@gmail.com"
+                  href="mailto:Infyniq.itsolutions@gmail.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="social-link-con d-flex align-items-center"
                 >
                   <i className="fas fa-envelope social-icon-con me-2"></i>
-                  Keshav.itsolutions@gmail.com
+                  Infyniq.itsolutions@gmail.com
                 </a>
               </div>
               <hr></hr>
@@ -67,7 +132,7 @@ const Contact = () => {
                   <i className="fab fa-instagram social-icon-con"></i>
                 </a>
                 <a
-                  href="mailto:info@Keshav.com"
+                  href="mailto:info@Infyniq.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="social-link-con me-2"
@@ -104,7 +169,7 @@ const Contact = () => {
             {/* Right Section */}
             <div className="col-lg-5">
               <div className="contact-card">
-                <form>
+                <div>
                   <div className="row mb-3">
                     <div className="col-6">
                       <label htmlFor="name" className="form-label">
@@ -114,6 +179,8 @@ const Contact = () => {
                         type="text"
                         className="form-control"
                         id="name"
+                        value={formData.name}
+                        onChange={handleChange}
                         required
                       />
                     </div>
@@ -125,6 +192,8 @@ const Contact = () => {
                         type="email"
                         className="form-control"
                         id="email"
+                        value={formData.email}
+                        onChange={handleChange}
                         required
                       />
                     </div>
@@ -137,6 +206,8 @@ const Contact = () => {
                       type="text"
                       className="form-control"
                       id="phone"
+                      value={formData.phone}
+                      onChange={handleChange}
                       required
                     />
                   </div>
@@ -148,13 +219,27 @@ const Contact = () => {
                       className="form-control"
                       id="message"
                       rows="3"
+                      value={formData.message}
+                      onChange={handleChange}
                       required
                     ></textarea>
                   </div>
-                  <button type="submit" className="btn btn-warning w-100">
+                  <button
+                    type="button"
+                    className="btn btn-warning w-100"
+                    onClick={handleSubmit}
+                  >
                     Send Message
                   </button>
-                </form>
+                </div>
+                {successMessage && (
+                  <div className="alert alert-success mt-3">
+                    {successMessage}
+                  </div>
+                )}
+                {errorMessage && (
+                  <div className="alert alert-danger mt-3">{errorMessage}</div>
+                )}
               </div>
             </div>
           </div>

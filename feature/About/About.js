@@ -29,7 +29,7 @@ const About = () => {
             <div className="col-lg-7">
               <h2 className="section-title">Why Choose Us</h2>
               <p>
-                At Keshav, we specialize in web development, web design, and
+                At Infyniq, we specialize in web development, web design, and
                 UI/UX design. We create responsive, user-centric websites and
                 web applications that captivate users and deliver smooth
                 experiences across all devices. Our skilled UI/UX design team
@@ -69,7 +69,7 @@ const About = () => {
             <div className="col-lg-7">
               <h2 className="section-title">What we do</h2>
               <p>
-                At Keshav, we specialize in web development, web design, and
+                At Infyniq, we specialize in web development, web design, and
                 UI/UX design. We craft responsive, user-friendly websites and
                 web applications that captivate users and deliver smooth,
                 consistent experiences across all devices. Our expert UI/UX
@@ -102,7 +102,7 @@ const About = () => {
             <div className="col-lg-7 choose-item">
               <h2 className="section-title">Why Choose Us</h2>
               <p>
-                Keshav offers customized, scalable solutions that foster growth
+                Infyniq offers customized, scalable solutions that foster growth
                 and innovation. With a strong emphasis on user experience,
                 design excellence, and ongoing support, we ensure every project
                 aligns with your vision and goes beyond expectations.

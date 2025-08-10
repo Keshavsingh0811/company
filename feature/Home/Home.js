@@ -23,7 +23,7 @@ export default function Home() {
       <section className="homepage-hero">
         <h1>Driving Growth with Tailored Solutions</h1>
         <p>
-          At Keshav, we focus on crafting cutting-edge web and software
+          At Infyniq, we focus on crafting cutting-edge web and software
           solutions that empower businesses, boost efficiency, and foster
           sustainable success.
         </p>
@@ -32,14 +32,14 @@ export default function Home() {
         </button>
       </section>
 
-      {/* Discover Keshav Section */}
+      {/* Discover Infyniq Section */}
       <section className="section">
         <div className="container">
           <div className="row mb-5">
             <div className="col-lg-8 choose-item">
-              <h2 className="section-title">Discover Keshav</h2>
+              <h2 className="section-title">Discover Infyniq</h2>
               <p>
-                At Keshav, we are dedicated to harnessing technology to develop
+                At Infyniq, we are dedicated to harnessing technology to develop
                 innovative solutions that enable businesses to excel in today’s
                 digital-driven world.
               </p>
@@ -60,7 +60,7 @@ export default function Home() {
                       <div className="card-body">
                         <h6 className="card-title">Who we are</h6>
                         <p className="card-text">
-                          At Keshav, we are a team of committed innovators
+                          At Infyniq, we are a team of committed innovators
                           focused on delivering outstanding software solutions.
                         </p>
                       </div>

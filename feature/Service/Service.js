@@ -27,13 +27,13 @@ const Service = (props) => {
             <div className="col-lg-7">
               <h2 className="section-title">Web development</h2>
               <p>
-                At Keshav, we offer expertise in both static and dynamic web
+                At Infyniq, we offer expertise in both static and dynamic web
                 development. Whether you're seeking a straightforward,
                 informational website or a sophisticated, interactive platform,
                 our team ensures the solution is tailored to your specific
                 business goals. Utilizing modern technologies, we create
                 responsive designs and integrate advanced features to provide
-                smooth, engaging web experiences. Choose Keshav for websites
+                smooth, engaging web experiences. Choose Infyniq for websites
                 that are not only visually impressive but also optimized for
                 peak performance and user interaction.
               </p>
@@ -78,14 +78,14 @@ const Service = (props) => {
             <div className="col-lg-7">
               <h2 className="section-title">UI/UX design</h2>
               <p>
-                At Keshav, we focus on crafting user-centered UI/UX designs that
-                are visually appealing and easy to navigate. We perform in-depth
-                user research and prioritize enhancing usability through
-                wireframes, prototypes, and final designs. Whether for websites
-                or apps, our aim is to deliver digital experiences that boost
-                user satisfaction and contribute to business success. Let Keshav
-                elevate your digital presence with creative and innovative
-                design solutions.
+                At Infyniq, we focus on crafting user-centered UI/UX designs
+                that are visually appealing and easy to navigate. We perform
+                in-depth user research and prioritize enhancing usability
+                through wireframes, prototypes, and final designs. Whether for
+                websites or apps, our aim is to deliver digital experiences that
+                boost user satisfaction and contribute to business success. Let
+                Infyniq elevate your digital presence with creative and
+                innovative design solutions.
               </p>
               <div>
                 <h3 className="card-title mb-3">
@@ -126,14 +126,14 @@ const Service = (props) => {
             <div className="col-lg-7">
               <h2 className="section-title">Software development</h2>
               <p>
-                Keshav provides end-to-end software development services for
+                Infyniq provides end-to-end software development services for
                 both web-based and Windows applications. Our team excels in
                 building scalable, secure, and user-friendly software designed
                 to meet your specific business needs. Whether you require a
                 powerful web platform or a high-performance Windows application,
                 we use the latest technologies to ensure smooth functionality,
                 superior performance, and an exceptional user experience.
-                Partner with Keshav to bring your software solutions to life
+                Partner with Infyniq to bring your software solutions to life
                 with accuracy and efficiency.
               </p>
               <div>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 220" width="800" height="220">
+  <defs>
+    <!-- Infinity loop gradient -->
+    <linearGradient id="g1" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0B6B8A"/>
+      <stop offset="50%" stop-color="#06B6D4"/>
+      <stop offset="100%" stop-color="#7CE3B1"/>
+    </linearGradient>
+
+    <!-- Text gradient -->
+    <linearGradient id="textGradient" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#0B6B8A"/>
+      <stop offset="50%" stop-color="#06B6D4"/>
+      <stop offset="100%" stop-color="#7CE3B1"/>
+    </linearGradient>
+
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#0b3140" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Infinity loop -->
+  <g transform="translate(40,30)">
+    <path d="M120 80 C120 10 260 10 320 80 C380 150 520 150 520 80 C520 10 380 10 320 80 C260 150 120 150 120 80Z"
+          fill="none"
+          stroke="url(#g1)"
+          stroke-width="22"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          filter="url(#shadow)"/>
+    <circle cx="520" cy="80" r="6" fill="#06B6D4" opacity="0.95"/>
+  </g>
+
+  <!-- Wordmark with gradient text -->
+  <g font-family="'Merriweather', serif" transform="translate(580,110)" text-anchor="start">
+    <text x="0" y="-6" font-size="44" font-weight="700" fill="url(#textGradient)">INFYNIQ</text>
+    <text x="0" y="30" font-size="22" font-weight="300" fill="url(#textGradient)" font-style="italic">IT SOLUTIONS</text>
+  </g>
+</svg>

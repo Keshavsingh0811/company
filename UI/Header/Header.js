@@ -3,14 +3,14 @@ import React from "react";
 
 const Header = () => {
   return (
-    <header className="sticky-top">
+    <header className="header-main sticky-top">
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container">
           {/* Logo Section */}
           <a className="navbar-brand" href="/">
             <Image
-              src="/Keshav-logo.svg"
-              alt="Keshav Logo"
+              src="/infyniq-it-solutions.svg"
+              alt="Infyniq Logo"
               width={140}
               height={40}
             />

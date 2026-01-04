@@ -22,22 +22,50 @@ const Contact = () => {
     }));
   };
 
-  // Handle form submission on button click
+  // Validate form fields
+  const validateForm = () => {
+    const { name, email, phone, message } = formData;
+
+    if (!name.trim()) return "Please enter your name.";
+    if (!email.trim()) return "Please enter your email.";
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email))
+      return "Please enter a valid email address.";
+    if (!phone.trim()) return "Please enter your phone number.";
+    if (!/^\d{10}$/.test(phone))
+      return "Please enter a valid 10-digit phone number.";
+    if (!message.trim()) return "Please enter your message.";
+
+    return null;
+  };
+
+  // Handle form submission
   const handleSubmit = async () => {
-    debugger;
+    // Reset previous messages
+    setErrorMessage("");
+    setSuccessMessage("");
+
+    // Validate form
+    const validationError = validateForm();
+    if (validationError) {
+      setErrorMessage(validationError);
+      return; // Stop submission
+    }
+
     try {
-      const response = await fetch("https://localhost:44321/api/Contact", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      });
+      const response = await fetch(
+        "https://localhost:7045/api/Contact/SubmitContactForm",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(formData),
+        }
+      );
 
       if (response.ok) {
         const data = await response.json();
 
-        // Show success alert
         Swal.fire({
           title: "Success!",
           text: data.message,
@@ -45,11 +73,10 @@ const Contact = () => {
           confirmButtonText: "OK",
         });
 
-        setFormData({ name: "", email: "", phone: "", message: "" }); // Clear the form
+        setFormData({ name: "", email: "", phone: "", message: "" });
+        setSuccessMessage("Form submitted successfully!");
       } else {
         const errorData = await response.json();
-
-        // Show error alert
         Swal.fire({
           title: "Error!",
           text: errorData.message || "Something went wrong!",
@@ -71,15 +98,12 @@ const Contact = () => {
     <div className="page-container">
       <Header />
       <div>
-        {/* Hero Section */}
         <section className="hero-section">
           <h1 className="hero-title">About Us</h1>
         </section>
 
-        {/* Get in Touch Section */}
         <section className="section">
           <div className="row mx-3">
-            {/* Left Section */}
             <div className="col-lg-7 mt-5">
               <h2 className="section-title">Get in Touch</h2>
               <p>
@@ -88,7 +112,6 @@ const Contact = () => {
                 collaborate, support, and respond to you as quickly as possible!
               </p>
               <div className="contact-details">
-                {/* Phone Link */}
                 <a
                   href="tel:+7005455056"
                   target="_blank"
@@ -99,7 +122,6 @@ const Contact = () => {
                   (+91) 7005455056
                 </a>
 
-                {/* Email Link */}
                 <a
                   href="mailto:Infyniq.itsolutions@gmail.com"
                   target="_blank"
@@ -110,8 +132,7 @@ const Contact = () => {
                   Infyniq.itsolutions@gmail.com
                 </a>
               </div>
-              <hr></hr>
-              {/* Social Media Section */}
+              <hr />
               <h4>Social Media</h4>
               <p>Follow us on social media for updates and insights.</p>
               <div className="footer-social-links-con d-flex">
@@ -166,7 +187,6 @@ const Contact = () => {
               </div>
             </div>
 
-            {/* Right Section */}
             <div className="col-lg-5">
               <div className="contact-card">
                 <div>
@@ -181,7 +201,6 @@ const Contact = () => {
                         id="name"
                         value={formData.name}
                         onChange={handleChange}
-                        required
                       />
                     </div>
                     <div className="col-6">
@@ -194,7 +213,6 @@ const Contact = () => {
                         id="email"
                         value={formData.email}
                         onChange={handleChange}
-                        required
                       />
                     </div>
                   </div>
@@ -208,7 +226,6 @@ const Contact = () => {
                       id="phone"
                       value={formData.phone}
                       onChange={handleChange}
-                      required
                     />
                   </div>
                   <div className="mb-3">
@@ -221,7 +238,6 @@ const Contact = () => {
                       rows="3"
                       value={formData.message}
                       onChange={handleChange}
-                      required
                     ></textarea>
                   </div>
                   <button
@@ -232,6 +248,7 @@ const Contact = () => {
                     Send Message
                   </button>
                 </div>
+
                 {successMessage && (
                   <div className="alert alert-success mt-3">
                     {successMessage}

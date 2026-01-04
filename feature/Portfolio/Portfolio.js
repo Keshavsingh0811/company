@@ -17,19 +17,27 @@ const Portfolio = (props) => {
             <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
               <div className="card">
                 <img
-                  src="/one.jpg"
-                  alt="Sanitas Healthcare"
+                  src="/port.png"
+                  alt="Green Building"
                   className="img-fluid"
                   style={{ width: "100%", height: "auto" }}
                 />
                 <div className="card-body text-center">
-                  <h5 className="card-title">Sanitas Healthcare</h5>
+                  <h5 className="card-title">GMP SGBC</h5>
                   <p className="card-text">
-                    Sanitas Healthcare is an Indian company specializing in the
-                    production of nutraceuticals, including tablets, capsules,
-                    powders, and syrups.
+                    The accelerated push for sustainability necessitates
+                    deepening of the core knowledge and expertise of green
+                    building professionals. Environmental Sustainability Design
+                    (ESD) consultants, Architects, Engineers, Contractors,
+                    Project Managers, Facilities Managers and other built
+                    environment professionals directly contribute to the quality
+                    of our places and spaces and by extension, to Singapore's
+                    national climate goals.
                   </p>
-                  <a href="https://example.com" className="btn btn-warning">
+                  <a
+                    href="https://gmp.sgbc.online/"
+                    className="btn btn-warning"
+                  >
                     Visit site
                   </a>
                 </div>
@@ -37,7 +45,7 @@ const Portfolio = (props) => {
             </div>
 
             {/* Second Card */}
-            <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
+            {/* <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
               <div className="card">
                 <img
                   src="/two.jpg"
@@ -57,10 +65,10 @@ const Portfolio = (props) => {
                   </a>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             {/* Third Card */}
-            <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
+            {/* <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
               <div className="card">
                 <img
                   src="/three.jpg"
@@ -80,7 +88,7 @@ const Portfolio = (props) => {
                   </a>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
         <FooterOne />

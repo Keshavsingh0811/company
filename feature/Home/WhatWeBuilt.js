@@ -9,7 +9,7 @@ const WhatWeBuilt = () => {
           <div className="project-card">
             <a href="/portfolio">
               <div className="project-image-container">
-                <img src="/Port.png" alt="Sanitas Healthcare" />
+                <img src="/port.png" alt="Sanitas Healthcare" />
               </div>
             </a>
           </div>
